@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1a2d;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+main {
+    background: #15273f;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 150px auto;
+}
+
+.cube img {
+    width: 100%;
+    border-radius: 8px;
+    filter: blur(.8px);
+}
+
+.cube:hover {
+    background-color: hsl(178, 100%, 50%);
+}
+
+.cube img:hover {
+    opacity: .5;
+}
+
+h2 {
+    color: white;
+    font-weight: normal;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+#desc {
+    color: hsl(215, 51%, 70%);
+}
+
+.crypto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.crypto-val {
+    display: flex;
+    align-items: center;
+}
+
+.crypto-val img {
+    margin-right: 5px;
+}
+
+.crypto-val p {
+    color: hsl(178, 100%, 50%);
+}
+
+.days-left {
+    display: flex;
+    align-items: center;
+}
+
+.days-left p {
+    margin-left: 5px;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    /* border: darkgray 1px solid; */
+    opacity: .3;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.creator img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: white 1px solid;
+    margin-right: 1rem;
+}
+
+.creator p {
+    color: hsl(215, 51%, 70%);
+}
+
+.name {
+    color: white;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
